@@ -1,2 +1,4 @@
 *.pdf
 .DS_Store
+.venv
+yield_project/models/champion_yield_model.joblib
