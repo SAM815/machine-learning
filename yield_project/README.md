@@ -19,7 +19,7 @@ This project explores:
 
 To avoid global crop mass distortion (e.g., potatoes weighing significantly more per hectare than wheat or rice), the target is formulated as a **group-relative binary indicator**:
 
-$$\text{yield\_shock} = \begin{cases} 1, & \text{if } \text{Yield} < \text{Median}(\text{Country, Crop}) \\ 0, & \text{otherwise} \end{cases}$$
+$$\text{Yield Shock} = \begin{cases} 1, & \text{if } \text{Yield} < \text{Median}(\text{Country, Crop}) \\ 0, & \text{otherwise} \end{cases}$$
 
 - **Class Balance**: 52.5% Normal Harvest (`0`) vs. 47.5% Yield Shock (`1`).
 
